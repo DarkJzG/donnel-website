@@ -1,0 +1,173 @@
+/*---------------------------------------
+  CUSTOM PROPERTIES ( VARIABLES )             
+-----------------------------------------*/
+:root {
+    --white-color:                  #ffffff;
+    --primary-color:                #f8d5dc;
+    --secondary-color:              #f96900;
+    --section-bg-color:             #f0f8ff;
+    --custom-btn-bg-color:          #f96900;
+    --custom-btn-bg-hover-color:    #64070b;
+    --dark-color:                   #000000;
+    --p-color:                      #717275;
+    --border-color:                 #7fffd4;
+    --link-hover-color:             #B22727;
+    --color-rojo:                   #64070b;
+    --color-naranja:                #f96900;
+    --color-amarillo:               #f4b235;
+    --color-rosa:                   #fcd8df;
+  }
+  
+  /*---------------------------------------
+    BANNER CON FONDO DE DOS COLORES Y LÍNEA DIAGONAL
+  -----------------------------------------*/
+  .banner {
+      position: relative;
+      height: 300px;
+      overflow: hidden;
+      background: linear-gradient(to right bottom, var(--color-naranja) 50%, var(--color-amarillo) 50%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .banner h1 {
+      font-size: var(--h1-font-size);
+      color: var(--white-color);
+      text-transform: uppercase;
+      position: relative;
+      z-index: 2;
+  }
+  
+  /*---------------------------------------
+    SECCIÓN DEL PRODUCTO
+  -----------------------------------------*/
+  .product-section {
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+  
+  .product-image {
+      border-radius: var(--border-radius-medium);
+      max-width: 100%;
+      height: auto;
+  }
+  
+  .product-info {
+      padding-left: 30px;
+  }
+  
+  .product-info h2 {
+      font-size: var(--h2-font-size);
+      color: var(--dark-color);
+      margin-bottom: 20px;
+  }
+  
+  .product-info p,
+  .product-info ul {
+      font-size: var(--p-font-size);
+      color: var(--p-color);
+  }
+  
+  .product-info ul {
+      list-style: none;
+      padding-left: 0;
+  }
+  
+  .product-info ul li {
+      margin-bottom: 10px;
+  }
+  
+  /*---------------------------------------
+    SECCIÓN DE RECETAS CON VIDEOS DE FONDO
+  -----------------------------------------*/
+  .recipes-section {
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+  
+  .recipe-card {
+      position: relative;
+      height: 300px;
+      overflow: hidden;
+      border-radius: var(--border-radius-medium);
+      margin-bottom: 30px;
+  }
+  
+  .recipe-card video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  
+  .recipe-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+  }
+  
+  .recipe-overlay h3 {
+      color: var(--white-color);
+      font-size: var(--h4-font-size);
+      margin-bottom: 10px;
+  }
+  
+  .recipe-overlay a {
+      background-color: var(--color-naranja);
+      color: var(--white-color);
+      padding: 10px 20px;
+      border-radius: var(--border-radius-large);
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+  }
+  
+  .recipe-overlay a:hover {
+      background-color: var(--custom-btn-bg-hover-color);
+  }
+  
+  /*---------------------------------------
+    SECCIÓN DE PRODUCTOS RELACIONADOS
+  -----------------------------------------*/
+  .related-products-section {
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+  
+  .related-product-card {
+      text-align: center;
+      margin-bottom: 30px;
+  }
+  
+  .related-product-card img {
+      border-radius: var(--border-radius-medium);
+      max-width: 100%;
+      height: auto;
+  }
+  
+  .related-product-card h4 {
+      font-size: var(--h5-font-size);
+      color: var(--dark-color);
+      margin-top: 15px;
+  }
+  
+  .related-product-card a {
+      background-color: var(--color-naranja);
+      color: var(--white-color);
+      padding: 8px 16px;
+      border-radius: var(--border-radius-large);
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+  }
+  
+  .related-product-card a:hover {
+      background-color: var(--custom-btn-bg-hover-color);
+  }

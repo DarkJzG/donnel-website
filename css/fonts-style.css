@@ -1,0 +1,18 @@
+/* Cargar la fuente Avigea */
+@font-face {
+    font-family: 'Avigea';
+    src: url('../fonts/Avigea.woff2') format('woff2'), /* Ruta a la fuente */
+         url('../fonts/Avigea.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Avigea';
+    src: url('../fonts/Avigea.woff2') format('woff2'),
+         url('../fonts/Avigea.woff2') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  
