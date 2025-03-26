@@ -552,7 +552,15 @@ background: var(--custom-btn-bg-hover-color);
   ABOUT              
 -----------------------------------------*/
 .about-section {
-  background-image: url('../images/edward-unsplash-blur.jpg');
+  background-image: url('../images/banner2.png');
+  background-color: #704010;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.about-section2 {
+  background-image: url('../images/banner4.png');
   background-color: #704010;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1244,9 +1252,9 @@ background: var(--custom-btn-bg-hover-color);
 }
 
 .product-image-wrap {
-  background-color: var(--color-rojo); /* Fondo negro */
+  background-color: var(--color-amarillo); /* Fondo negro */
   border-radius: var(--border-radius-medium); /* Bordes redondos */
-  padding: 15px;
+  padding: 15px; 
   display: inline-block;
 }
 
@@ -1321,7 +1329,7 @@ background: var(--custom-btn-bg-hover-color);
 }
 
 .related-product-card a {
-  background-color: var(--color-naranja);
+  background-color: var(--color-rojo);
   color: var(--white-color);
   padding: 8px 16px;
   border-radius: var(--border-radius-large);
