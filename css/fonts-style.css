@@ -1,16 +1,17 @@
 /* Cargar la fuente Avigea */
 @font-face {
-    font-family: 'Avigea';
-    src: url('../fonts/Avigea.woff2') format('woff2'), /* Ruta a la fuente */
-         url('../fonts/Avigea.woff') format('woff');
+    font-family: 'Monsterrat';
+    src: url('../fonts/static/Montserrat-Regular.ttf') format('woff2'), /* Ruta a la fuente */
+         url('../fonts/static/Montserrat-Light.ttf') format('woff');
+    
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
-    font-family: 'Avigea';
-    src: url('../fonts/Avigea.woff2') format('woff2'),
-         url('../fonts/Avigea.woff2') format('woff');
+    font-family: 'Montserrat';
+    src: url('../fonts/static/Montserrat-Bold.ttf') format('woff2'),
+         url('../fonts/static/Montserrat-ExtraBold.ttf') format('woff');
     font-weight: bold;
     font-style: normal;
   }
