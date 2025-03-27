@@ -572,8 +572,20 @@ background: var(--custom-btn-bg-hover-color);
   display: block;
 }
 
+.about-image2 {
+  border-radius: var(--border-radius-medium);
+  display: block;
+  position: relative;
+  height: 10%;
+}
+
 .about-text-wrap {
   position: relative;
+}
+
+.about-text-wrap2 {
+  position: 50%;
+  height: 10%;
 }
 
 .about-text-icon {
